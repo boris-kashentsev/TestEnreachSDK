@@ -18,6 +18,10 @@
 		2C21701D1F18C6C8005B7705 /* EnreachPaths.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD1B0F71F0FB687001E95D5 /* EnreachPaths.m */; };
 		2C21701E1F18C6C8005B7705 /* CampaignResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CD1B0F91F151791001E95D5 /* CampaignResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C21701F1F18C6C8005B7705 /* CampaignResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD1B0FA1F151791001E95D5 /* CampaignResponse.m */; };
+		2C2170481F190F99005B7705 /* AdInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CD1B0ED1F0E320D001E95D5 /* AdInfo.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2C2170491F190F9F005B7705 /* AdStatState.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CD1B0F01F0E4479001E95D5 /* AdStatState.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2C21704A1F190FA3005B7705 /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CD1B0F31F0FAA31001E95D5 /* Constants.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2C21704B1F190FA7005B7705 /* EnreachPaths.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CD1B0F61F0FB687001E95D5 /* EnreachPaths.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		2C2958AE1F0264940055DAE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2958AD1F0264940055DAE1 /* main.m */; };
 		2C2958B11F0264940055DAE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2958B01F0264940055DAE1 /* AppDelegate.m */; };
 		2C2958B41F0264940055DAE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2958B31F0264940055DAE1 /* ViewController.m */; };
@@ -181,6 +185,10 @@
 				2C2170141F18C6C8005B7705 /* Enreach.h in Headers */,
 				2C21701E1F18C6C8005B7705 /* CampaignResponse.h in Headers */,
 				2C21700B1F18C6A8005B7705 /* TestEnreachSDK.h in Headers */,
+				2C2170481F190F99005B7705 /* AdInfo.h in Headers */,
+				2C2170491F190F9F005B7705 /* AdStatState.h in Headers */,
+				2C21704B1F190FA7005B7705 /* EnreachPaths.h in Headers */,
+				2C21704A1F190FA3005B7705 /* Constants.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
