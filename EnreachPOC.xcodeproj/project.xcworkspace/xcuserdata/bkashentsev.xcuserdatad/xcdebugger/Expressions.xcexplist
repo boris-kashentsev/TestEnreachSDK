@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[Enreach init]:Enreach.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.paths">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Enreach connectionDidFinishLoading:]:Enreach.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[[NSHTTPCookieStorage sharedHTTPCookieStorage] cookies]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

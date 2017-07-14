@@ -1,0 +1,6 @@
+framework module TestEnreachSDK {
+  umbrella header "TestEnreachSDK.h"
+
+  export *
+  module * { export * }
+}
