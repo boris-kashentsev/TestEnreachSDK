@@ -16,4 +16,9 @@ FOUNDATION_EXPORT const unsigned char TestEnreachSDKVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <TestEnreachSDK/PublicHeader.h>
 
-
+#import <TestEnreachSDK/Enreach.h>
+#import <TestEnreachSDK/AdInfo.h>
+#import <TestEnreachSDK/AdStatState.h>
+#import <TestEnreachSDK/Constants.h>
+#import <TestEnreachSDK/EnreachPaths.h>
+#import <TestEnreachSDK/CampaignResponse.h>

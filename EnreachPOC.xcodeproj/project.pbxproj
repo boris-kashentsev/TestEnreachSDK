@@ -10,31 +10,31 @@
 		2C21700B1F18C6A8005B7705 /* TestEnreachSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C2170091F18C6A8005B7705 /* TestEnreachSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C21700E1F18C6A8005B7705 /* TestEnreachSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2170071F18C6A8005B7705 /* TestEnreachSDK.framework */; };
 		2C21700F1F18C6A8005B7705 /* TestEnreachSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2170071F18C6A8005B7705 /* TestEnreachSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		2C2170141F18C6C8005B7705 /* Enreach.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C7919BE1F03EE1500797DC5 /* Enreach.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C2170151F18C6C8005B7705 /* Enreach.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7919BF1F03EE1500797DC5 /* Enreach.m */; };
-		2C2170171F18C6C8005B7705 /* AdInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD1B0EE1F0E320D001E95D5 /* AdInfo.m */; };
-		2C2170191F18C6C8005B7705 /* AdStatState.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD1B0F11F0E447A001E95D5 /* AdStatState.m */; };
-		2C21701B1F18C6C8005B7705 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD1B0F41F0FACD1001E95D5 /* Constants.m */; };
-		2C21701D1F18C6C8005B7705 /* EnreachPaths.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD1B0F71F0FB687001E95D5 /* EnreachPaths.m */; };
-		2C21701E1F18C6C8005B7705 /* CampaignResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CD1B0F91F151791001E95D5 /* CampaignResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C21701F1F18C6C8005B7705 /* CampaignResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD1B0FA1F151791001E95D5 /* CampaignResponse.m */; };
-		2C2170481F190F99005B7705 /* AdInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CD1B0ED1F0E320D001E95D5 /* AdInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C2170491F190F9F005B7705 /* AdStatState.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CD1B0F01F0E4479001E95D5 /* AdStatState.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C21704A1F190FA3005B7705 /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CD1B0F31F0FAA31001E95D5 /* Constants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C21704B1F190FA7005B7705 /* EnreachPaths.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CD1B0F61F0FB687001E95D5 /* EnreachPaths.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C2170801F1D0DD3005B7705 /* AdInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C2170741F1D0DD3005B7705 /* AdInfo.h */; };
+		2C2170811F1D0DD3005B7705 /* AdInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2170751F1D0DD3005B7705 /* AdInfo.m */; };
+		2C2170821F1D0DD3005B7705 /* AdInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2170751F1D0DD3005B7705 /* AdInfo.m */; };
+		2C2170831F1D0DD3005B7705 /* AdStatState.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C2170761F1D0DD3005B7705 /* AdStatState.h */; };
+		2C2170841F1D0DD3005B7705 /* AdStatState.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2170771F1D0DD3005B7705 /* AdStatState.m */; };
+		2C2170851F1D0DD3005B7705 /* AdStatState.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2170771F1D0DD3005B7705 /* AdStatState.m */; };
+		2C2170861F1D0DD3005B7705 /* CampaignResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C2170781F1D0DD3005B7705 /* CampaignResponse.h */; };
+		2C2170871F1D0DD3005B7705 /* CampaignResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2170791F1D0DD3005B7705 /* CampaignResponse.m */; };
+		2C2170881F1D0DD3005B7705 /* CampaignResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2170791F1D0DD3005B7705 /* CampaignResponse.m */; };
+		2C2170891F1D0DD3005B7705 /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C21707A1F1D0DD3005B7705 /* Constants.h */; };
+		2C21708A1F1D0DD3005B7705 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C21707B1F1D0DD3005B7705 /* Constants.m */; };
+		2C21708B1F1D0DD3005B7705 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C21707B1F1D0DD3005B7705 /* Constants.m */; };
+		2C21708C1F1D0DD3005B7705 /* Enreach.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C21707C1F1D0DD3005B7705 /* Enreach.h */; };
+		2C21708D1F1D0DD3005B7705 /* Enreach.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C21707D1F1D0DD3005B7705 /* Enreach.m */; };
+		2C21708E1F1D0DD3005B7705 /* Enreach.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C21707D1F1D0DD3005B7705 /* Enreach.m */; };
+		2C21708F1F1D0DD3005B7705 /* EnreachPaths.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C21707E1F1D0DD3005B7705 /* EnreachPaths.h */; };
+		2C2170901F1D0DD3005B7705 /* EnreachPaths.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C21707F1F1D0DD3005B7705 /* EnreachPaths.m */; };
+		2C2170911F1D0DD3005B7705 /* EnreachPaths.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C21707F1F1D0DD3005B7705 /* EnreachPaths.m */; };
 		2C2958AE1F0264940055DAE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2958AD1F0264940055DAE1 /* main.m */; };
 		2C2958B11F0264940055DAE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2958B01F0264940055DAE1 /* AppDelegate.m */; };
 		2C2958B41F0264940055DAE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2958B31F0264940055DAE1 /* ViewController.m */; };
 		2C2958B71F0264940055DAE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2958B51F0264940055DAE1 /* Main.storyboard */; };
 		2C2958B91F0264940055DAE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C2958B81F0264940055DAE1 /* Assets.xcassets */; };
 		2C2958BC1F0264940055DAE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2958BA1F0264940055DAE1 /* LaunchScreen.storyboard */; };
-		2C7919C01F03EE1500797DC5 /* Enreach.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7919BF1F03EE1500797DC5 /* Enreach.m */; };
 		2CD1B0EC1F0BD60C001E95D5 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD1B0EB1F0BD60C001E95D5 /* WebViewController.m */; };
-		2CD1B0EF1F0E320D001E95D5 /* AdInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD1B0EE1F0E320D001E95D5 /* AdInfo.m */; };
-		2CD1B0F21F0E447A001E95D5 /* AdStatState.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD1B0F11F0E447A001E95D5 /* AdStatState.m */; };
-		2CD1B0F51F0FACD1001E95D5 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD1B0F41F0FACD1001E95D5 /* Constants.m */; };
-		2CD1B0F81F0FB687001E95D5 /* EnreachPaths.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD1B0F71F0FB687001E95D5 /* EnreachPaths.m */; };
-		2CD1B0FB1F151792001E95D5 /* CampaignResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD1B0FA1F151791001E95D5 /* CampaignResponse.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +65,18 @@
 		2C2170071F18C6A8005B7705 /* TestEnreachSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestEnreachSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C2170091F18C6A8005B7705 /* TestEnreachSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestEnreachSDK.h; sourceTree = "<group>"; };
 		2C21700A1F18C6A8005B7705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C2170741F1D0DD3005B7705 /* AdInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdInfo.h; path = EnreachSDK/AdInfo.h; sourceTree = "<group>"; };
+		2C2170751F1D0DD3005B7705 /* AdInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AdInfo.m; path = EnreachSDK/AdInfo.m; sourceTree = "<group>"; };
+		2C2170761F1D0DD3005B7705 /* AdStatState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdStatState.h; path = EnreachSDK/AdStatState.h; sourceTree = "<group>"; };
+		2C2170771F1D0DD3005B7705 /* AdStatState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AdStatState.m; path = EnreachSDK/AdStatState.m; sourceTree = "<group>"; };
+		2C2170781F1D0DD3005B7705 /* CampaignResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CampaignResponse.h; path = EnreachSDK/CampaignResponse.h; sourceTree = "<group>"; };
+		2C2170791F1D0DD3005B7705 /* CampaignResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CampaignResponse.m; path = EnreachSDK/CampaignResponse.m; sourceTree = "<group>"; };
+		2C21707A1F1D0DD3005B7705 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = EnreachSDK/Constants.h; sourceTree = "<group>"; };
+		2C21707B1F1D0DD3005B7705 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Constants.m; path = EnreachSDK/Constants.m; sourceTree = "<group>"; };
+		2C21707C1F1D0DD3005B7705 /* Enreach.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Enreach.h; path = EnreachSDK/Enreach.h; sourceTree = "<group>"; };
+		2C21707D1F1D0DD3005B7705 /* Enreach.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Enreach.m; path = EnreachSDK/Enreach.m; sourceTree = "<group>"; };
+		2C21707E1F1D0DD3005B7705 /* EnreachPaths.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EnreachPaths.h; path = EnreachSDK/EnreachPaths.h; sourceTree = "<group>"; };
+		2C21707F1F1D0DD3005B7705 /* EnreachPaths.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EnreachPaths.m; path = EnreachSDK/EnreachPaths.m; sourceTree = "<group>"; };
 		2C2958A91F0264940055DAE1 /* EnreachPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnreachPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C2958AD1F0264940055DAE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2C2958AF1F0264940055DAE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -75,20 +87,8 @@
 		2C2958B81F0264940055DAE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C2958BB1F0264940055DAE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C2958BD1F0264940055DAE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C7919BE1F03EE1500797DC5 /* Enreach.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enreach.h; sourceTree = "<group>"; };
-		2C7919BF1F03EE1500797DC5 /* Enreach.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Enreach.m; sourceTree = "<group>"; };
 		2CD1B0EA1F0BD60C001E95D5 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		2CD1B0EB1F0BD60C001E95D5 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
-		2CD1B0ED1F0E320D001E95D5 /* AdInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdInfo.h; sourceTree = "<group>"; };
-		2CD1B0EE1F0E320D001E95D5 /* AdInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdInfo.m; sourceTree = "<group>"; };
-		2CD1B0F01F0E4479001E95D5 /* AdStatState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdStatState.h; sourceTree = "<group>"; };
-		2CD1B0F11F0E447A001E95D5 /* AdStatState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdStatState.m; sourceTree = "<group>"; };
-		2CD1B0F31F0FAA31001E95D5 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
-		2CD1B0F41F0FACD1001E95D5 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
-		2CD1B0F61F0FB687001E95D5 /* EnreachPaths.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnreachPaths.h; sourceTree = "<group>"; };
-		2CD1B0F71F0FB687001E95D5 /* EnreachPaths.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnreachPaths.m; sourceTree = "<group>"; };
-		2CD1B0F91F151791001E95D5 /* CampaignResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CampaignResponse.h; sourceTree = "<group>"; };
-		2CD1B0FA1F151791001E95D5 /* CampaignResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CampaignResponse.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +119,25 @@
 			path = TestEnreachSDK;
 			sourceTree = "<group>";
 		};
+		2C2170731F1D0D58005B7705 /* EnreachSDK */ = {
+			isa = PBXGroup;
+			children = (
+				2C2170741F1D0DD3005B7705 /* AdInfo.h */,
+				2C2170751F1D0DD3005B7705 /* AdInfo.m */,
+				2C2170761F1D0DD3005B7705 /* AdStatState.h */,
+				2C2170771F1D0DD3005B7705 /* AdStatState.m */,
+				2C2170781F1D0DD3005B7705 /* CampaignResponse.h */,
+				2C2170791F1D0DD3005B7705 /* CampaignResponse.m */,
+				2C21707A1F1D0DD3005B7705 /* Constants.h */,
+				2C21707B1F1D0DD3005B7705 /* Constants.m */,
+				2C21707C1F1D0DD3005B7705 /* Enreach.h */,
+				2C21707D1F1D0DD3005B7705 /* Enreach.m */,
+				2C21707E1F1D0DD3005B7705 /* EnreachPaths.h */,
+				2C21707F1F1D0DD3005B7705 /* EnreachPaths.m */,
+			);
+			name = EnreachSDK;
+			sourceTree = "<group>";
+		};
 		2C2958A01F0264940055DAE1 = {
 			isa = PBXGroup;
 			children = (
@@ -147,18 +166,7 @@
 				2CD1B0EA1F0BD60C001E95D5 /* WebViewController.h */,
 				2CD1B0EB1F0BD60C001E95D5 /* WebViewController.m */,
 				2C2958B51F0264940055DAE1 /* Main.storyboard */,
-				2C7919BE1F03EE1500797DC5 /* Enreach.h */,
-				2C7919BF1F03EE1500797DC5 /* Enreach.m */,
-				2CD1B0ED1F0E320D001E95D5 /* AdInfo.h */,
-				2CD1B0EE1F0E320D001E95D5 /* AdInfo.m */,
-				2CD1B0F01F0E4479001E95D5 /* AdStatState.h */,
-				2CD1B0F11F0E447A001E95D5 /* AdStatState.m */,
-				2CD1B0F31F0FAA31001E95D5 /* Constants.h */,
-				2CD1B0F41F0FACD1001E95D5 /* Constants.m */,
-				2CD1B0F61F0FB687001E95D5 /* EnreachPaths.h */,
-				2CD1B0F71F0FB687001E95D5 /* EnreachPaths.m */,
-				2CD1B0F91F151791001E95D5 /* CampaignResponse.h */,
-				2CD1B0FA1F151791001E95D5 /* CampaignResponse.m */,
+				2C2170731F1D0D58005B7705 /* EnreachSDK */,
 				2C2958B81F0264940055DAE1 /* Assets.xcassets */,
 				2C2958BA1F0264940055DAE1 /* LaunchScreen.storyboard */,
 				2C2958BD1F0264940055DAE1 /* Info.plist */,
@@ -182,13 +190,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C2170141F18C6C8005B7705 /* Enreach.h in Headers */,
-				2C21701E1F18C6C8005B7705 /* CampaignResponse.h in Headers */,
+				2C2170891F1D0DD3005B7705 /* Constants.h in Headers */,
+				2C21708F1F1D0DD3005B7705 /* EnreachPaths.h in Headers */,
 				2C21700B1F18C6A8005B7705 /* TestEnreachSDK.h in Headers */,
-				2C2170481F190F99005B7705 /* AdInfo.h in Headers */,
-				2C2170491F190F9F005B7705 /* AdStatState.h in Headers */,
-				2C21704B1F190FA7005B7705 /* EnreachPaths.h in Headers */,
-				2C21704A1F190FA3005B7705 /* Constants.h in Headers */,
+				2C2170831F1D0DD3005B7705 /* AdStatState.h in Headers */,
+				2C21708C1F1D0DD3005B7705 /* Enreach.h in Headers */,
+				2C2170801F1D0DD3005B7705 /* AdInfo.h in Headers */,
+				2C2170861F1D0DD3005B7705 /* CampaignResponse.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,7 +251,7 @@
 				TargetAttributes = {
 					2C2170061F18C6A8005B7705 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = P735BUA9ED;
+						DevelopmentTeam = VJZ6ESMRRM;
 						ProvisioningStyle = Automatic;
 					};
 					2C2958A81F0264940055DAE1 = {
@@ -297,12 +305,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C2170151F18C6C8005B7705 /* Enreach.m in Sources */,
-				2C2170171F18C6C8005B7705 /* AdInfo.m in Sources */,
-				2C2170191F18C6C8005B7705 /* AdStatState.m in Sources */,
-				2C21701B1F18C6C8005B7705 /* Constants.m in Sources */,
-				2C21701D1F18C6C8005B7705 /* EnreachPaths.m in Sources */,
-				2C21701F1F18C6C8005B7705 /* CampaignResponse.m in Sources */,
+				2C2170881F1D0DD3005B7705 /* CampaignResponse.m in Sources */,
+				2C2170851F1D0DD3005B7705 /* AdStatState.m in Sources */,
+				2C21708E1F1D0DD3005B7705 /* Enreach.m in Sources */,
+				2C2170821F1D0DD3005B7705 /* AdInfo.m in Sources */,
+				2C21708B1F1D0DD3005B7705 /* Constants.m in Sources */,
+				2C2170911F1D0DD3005B7705 /* EnreachPaths.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,16 +318,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CD1B0F21F0E447A001E95D5 /* AdStatState.m in Sources */,
+				2C2170871F1D0DD3005B7705 /* CampaignResponse.m in Sources */,
 				2C2958B41F0264940055DAE1 /* ViewController.m in Sources */,
-				2CD1B0FB1F151792001E95D5 /* CampaignResponse.m in Sources */,
+				2C2170811F1D0DD3005B7705 /* AdInfo.m in Sources */,
+				2C2170901F1D0DD3005B7705 /* EnreachPaths.m in Sources */,
+				2C21708D1F1D0DD3005B7705 /* Enreach.m in Sources */,
+				2C21708A1F1D0DD3005B7705 /* Constants.m in Sources */,
 				2CD1B0EC1F0BD60C001E95D5 /* WebViewController.m in Sources */,
-				2CD1B0F51F0FACD1001E95D5 /* Constants.m in Sources */,
-				2CD1B0EF1F0E320D001E95D5 /* AdInfo.m in Sources */,
 				2C2958B11F0264940055DAE1 /* AppDelegate.m in Sources */,
-				2C7919C01F03EE1500797DC5 /* Enreach.m in Sources */,
+				2C2170841F1D0DD3005B7705 /* AdStatState.m in Sources */,
 				2C2958AE1F0264940055DAE1 /* main.m in Sources */,
-				2CD1B0F81F0FB687001E95D5 /* EnreachPaths.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,7 +367,7 @@
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = P735BUA9ED;
+				DEVELOPMENT_TEAM = VJZ6ESMRRM;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -380,7 +388,7 @@
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = P735BUA9ED;
+				DEVELOPMENT_TEAM = VJZ6ESMRRM;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
