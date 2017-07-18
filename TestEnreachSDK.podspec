@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = 'TestEnreachSDK'
-  spec.version = '1.0.7'
+  spec.version = '1.0.8'
   spec.summary = 'Testing CocoaPod frame working for the future SDK'
   spec.homepage = 'https://github.com/boris-kashentsev/TestEnreachSDK'
   spec.license = {:type => 'MIT', :file => 'MIT-LICENSE.txt'}
@@ -8,6 +8,7 @@ Pod::Spec.new do |spec|
   
   spec.platform = :ios
   spec.requires_arc = true
-  spec.source = {:git => 'https://github.com/boris-kashentsev/TestEnreachSDK.git', :tag => 'v1.0.7', :submodules => true}
+  spec.source = {:git => 'https://github.com/boris-kashentsev/TestEnreachSDK.git', :tag => 'v1.0.8', :submodules => true}
   spec.source_files = 'EnreachPOC/EnreachSDK/*.{h, m}'
+  spec.public_header_files = 'EnreachPOC/EnreachSDK/*.h'
 end
