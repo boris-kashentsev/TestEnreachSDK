@@ -3,7 +3,37 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "-[ViewController getCampaignsPressed:]:ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[Enreach sharedInstance]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "-[Enreach init]:Enreach.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.paths">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController viewDidLoad]:ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[Enreach sharedInstance]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Enreach init:]:Enreach.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[Enreach handleGetUserWithData:Response:Error:]:Enreach.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[Enreach getUserEvid]:Enreach.m">
          <PersistentStrings>
             <PersistentString
                value = "self.paths">

@@ -22,7 +22,7 @@
   [NSHTTPCookieStorage sharedHTTPCookieStorage].cookieAcceptPolicy = NSHTTPCookieAcceptPolicyAlways;
   
   NSDictionary* property = [[NSDictionary alloc] initWithObjectsAndKeys:
-                            @".mtv.fi", NSHTTPCookieDomain,
+                            @".katsomo.fi", NSHTTPCookieDomain,
                             @"evid_0002", NSHTTPCookieName,
                             @"2b58b182-7808-46cb-8b01-0cc444a15b15", NSHTTPCookieValue,
                             @"/", NSHTTPCookiePath,
@@ -34,7 +34,7 @@
   [[NSHTTPCookieStorage sharedHTTPCookieStorage] setCookie:cookie];
   
   property = [[NSDictionary alloc] initWithObjectsAndKeys:
-              @".mtv.fi", NSHTTPCookieDomain,
+              @".katsomo.fi", NSHTTPCookieDomain,
               @"evid_0002-synced", NSHTTPCookieName,
               @"true", NSHTTPCookieValue,
               @"/", NSHTTPCookiePath,
@@ -44,7 +44,12 @@
   cookie = [[NSHTTPCookie alloc] initWithProperties:property];
   [[NSHTTPCookieStorage sharedHTTPCookieStorage] setCookie:cookie];
   
-  [Enreach sharedEnreachInstance];
+  
+  NSDictionary *parameters = [NSDictionary dictionaryWithObjectsAndKeys:
+                              //@"http://admp-tc.katsomo.fi/", @"domain",
+                              @"2.24.2", @"admpApiVersion",
+                              nil];
+  [Enreach sharedInstanceWithParameters:parameters];
   
   
   return YES;

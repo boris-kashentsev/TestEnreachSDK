@@ -1,0 +1,262 @@
+BCSymbolMap Version: 2.0
+-[CampaignResponse isReference]
+-[CampaignResponse getEvId]
+-[CampaignResponse getCampaignIds]
+-[CampaignResponse getSegments]
+-[CampaignResponse getVv]
+-[CampaignResponse initWithJSON:]
++[CampaignResponse stripNativeMethodName:]
+-[CampaignResponse reference]
+-[CampaignResponse setReference:]
+-[CampaignResponse evId]
+-[CampaignResponse setEvId:]
+-[CampaignResponse campaignIds]
+-[CampaignResponse setCampaignIds:]
+-[CampaignResponse segments]
+-[CampaignResponse setSegments:]
+-[CampaignResponse vv]
+-[CampaignResponse setVv:]
+-[CampaignResponse .cxx_destruct]
+_OBJC_IVAR_$_CampaignResponse._reference
+_OBJC_IVAR_$_CampaignResponse._evId
+_OBJC_IVAR_$_CampaignResponse._campaignIds
+_OBJC_IVAR_$_CampaignResponse._segments
+_OBJC_IVAR_$_CampaignResponse._vv
+Apple LLVM version 8.1.0 (clang-802.0.42)
+/Users/bkashentsev/Documents/Conmio/EnreachPOC/EnreachPOC/EnreachSDK/CampaignResponse.m
+/Users/bkashentsev/Documents/Conmio/EnreachPOC
+/Users/bkashentsev/Documents/Conmio/EnreachPOC/EnreachPOC/EnreachSDK/CampaignResponse.h
+NSMakeRange
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
++[AdStatState getType:]
+/Users/bkashentsev/Documents/Conmio/EnreachPOC/EnreachPOC/EnreachSDK/AdStatState.m
++[Enreach sharedInstanceWithParameters:]
+___40+[Enreach sharedInstanceWithParameters:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[Enreach initWithParameters:]
++[Enreach sharedInstance]
+___25+[Enreach sharedInstance]_block_invoke
+-[Enreach getUserEvid]
+___22-[Enreach getUserEvid]_block_invoke
+___copy_helper_block_.51
+___destroy_helper_block_.52
+-[Enreach handleValidateWithData:Response:Error:]
+-[Enreach handleGetCampaignsWithData:Response:Error:]
+___53-[Enreach handleGetCampaignsWithData:Response:Error:]_block_invoke
+___copy_helper_block_.95
+___destroy_helper_block_.96
+-[Enreach handleGetUserWithData:Response:Error:]
+___48-[Enreach handleGetUserWithData:Response:Error:]_block_invoke
+___copy_helper_block_.112
+___destroy_helper_block_.113
+-[Enreach isValidEvid]
+-[Enreach isEmptyEvid]
+-[Enreach clearEvid]
+-[Enreach callGetUser]
+___22-[Enreach callGetUser]_block_invoke
+-[Enreach callGetCampaigns]
+___27-[Enreach callGetCampaigns]_block_invoke
+-[Enreach callValidate]
+___23-[Enreach callValidate]_block_invoke
++[Enreach stripNativeMethodName:]
+-[Enreach getEvid]
+-[Enreach getCampaignsWithBlock:]
+___33-[Enreach getCampaignsWithBlock:]_block_invoke
+___copy_helper_block_.153
+___destroy_helper_block_.154
+-[Enreach syncGetCampaigns]
+___27-[Enreach syncGetCampaigns]_block_invoke
+___copy_helper_block_.163
+___destroy_helper_block_.164
+-[Enreach setVisitorIdWithProvider:Id:]
+___39-[Enreach setVisitorIdWithProvider:Id:]_block_invoke
+___copy_helper_block_.178
+___destroy_helper_block_.179
++[Enreach getParameters:Location:Action:AdInfo:]
+-[Enreach pageStatWithLocation:]
+___32-[Enreach pageStatWithLocation:]_block_invoke
+___copy_helper_block_.201
+___destroy_helper_block_.202
+-[Enreach placementStatWithLocation:Ids:]
+-[Enreach placementStatWithSource:Location:Ids:]
+___48-[Enreach placementStatWithSource:Location:Ids:]_block_invoke
+___copy_helper_block_.216
+___destroy_helper_block_.217
+-[Enreach arStatWithLocation:]
+___30-[Enreach arStatWithLocation:]_block_invoke
+___copy_helper_block_.221
+___destroy_helper_block_.222
+-[Enreach adDwellTime:AdInfo:]
+___30-[Enreach adDwellTime:AdInfo:]_block_invoke
+___copy_helper_block_.231
+___destroy_helper_block_.232
+-[Enreach adClick:AdInfo:]
+___26-[Enreach adClick:AdInfo:]_block_invoke
+___copy_helper_block_.236
+___destroy_helper_block_.237
+-[Enreach adImpression:AdInfo:]
+___31-[Enreach adImpression:AdInfo:]_block_invoke
+___copy_helper_block_.241
+___destroy_helper_block_.242
+-[Enreach videoStart:AdInfo:]
+___29-[Enreach videoStart:AdInfo:]_block_invoke
+___copy_helper_block_.246
+___destroy_helper_block_.247
+-[Enreach videoFirstQuartile:AdInfo:]
+___37-[Enreach videoFirstQuartile:AdInfo:]_block_invoke
+___copy_helper_block_.251
+___destroy_helper_block_.252
+-[Enreach videoMidPoint:AdInfo:]
+___32-[Enreach videoMidPoint:AdInfo:]_block_invoke
+___copy_helper_block_.256
+___destroy_helper_block_.257
+-[Enreach videoThirdQuartile:AdInfo:]
+___37-[Enreach videoThirdQuartile:AdInfo:]_block_invoke
+___copy_helper_block_.261
+___destroy_helper_block_.262
+-[Enreach videoComplete:AdInfo:]
+___32-[Enreach videoComplete:AdInfo:]_block_invoke
+___copy_helper_block_.266
+___destroy_helper_block_.267
+-[Enreach evid]
+-[Enreach setEvid:]
+-[Enreach responseData]
+-[Enreach setResponseData:]
+-[Enreach adInfo]
+-[Enreach setAdInfo:]
+-[Enreach paths]
+-[Enreach setPaths:]
+-[Enreach .cxx_destruct]
+_sharedInstanceWithParameters:.sharedInstance
+_sharedInstanceWithParameters:.onceToken
+___block_descriptor_tmp
+_OBJC_IVAR_$_Enreach.evid
+_sharedInstance.sharedInstance
+_sharedInstance.onceToken
+___block_descriptor_tmp.28
+___block_literal_global
+___block_descriptor_tmp.54
+___block_descriptor_tmp.97
+___block_descriptor_tmp.114
+___block_descriptor_tmp.130
+___block_literal_global.131
+___block_descriptor_tmp.132
+___block_literal_global.133
+___block_descriptor_tmp.134
+___block_literal_global.135
+___block_descriptor_tmp.155
+___block_descriptor_tmp.165
+___block_descriptor_tmp.180
+___block_descriptor_tmp.203
+___block_descriptor_tmp.218
+___block_descriptor_tmp.223
+___block_descriptor_tmp.233
+___block_descriptor_tmp.238
+___block_descriptor_tmp.243
+___block_descriptor_tmp.248
+___block_descriptor_tmp.253
+___block_descriptor_tmp.258
+___block_descriptor_tmp.263
+___block_descriptor_tmp.268
+_OBJC_IVAR_$_Enreach._responseData
+_OBJC_IVAR_$_Enreach._adInfo
+_OBJC_IVAR_$_Enreach._paths
+/Users/bkashentsev/Documents/Conmio/EnreachPOC/EnreachPOC/EnreachSDK/Enreach.m
+/Users/bkashentsev/Documents/Conmio/EnreachPOC/EnreachPOC/EnreachSDK/Enreach.h
+__destroy_helper_block_
+__copy_helper_block_
+__32-[Enreach videoComplete:AdInfo:]_block_invoke
+__37-[Enreach videoThirdQuartile:AdInfo:]_block_invoke
+__32-[Enreach videoMidPoint:AdInfo:]_block_invoke
+__37-[Enreach videoFirstQuartile:AdInfo:]_block_invoke
+__29-[Enreach videoStart:AdInfo:]_block_invoke
+__31-[Enreach adImpression:AdInfo:]_block_invoke
+__26-[Enreach adClick:AdInfo:]_block_invoke
+__30-[Enreach adDwellTime:AdInfo:]_block_invoke
+__30-[Enreach arStatWithLocation:]_block_invoke
+__48-[Enreach placementStatWithSource:Location:Ids:]_block_invoke
+__32-[Enreach pageStatWithLocation:]_block_invoke
+__39-[Enreach setVisitorIdWithProvider:Id:]_block_invoke
+__27-[Enreach syncGetCampaigns]_block_invoke
+__33-[Enreach getCampaignsWithBlock:]_block_invoke
+__23-[Enreach callValidate]_block_invoke
+__27-[Enreach callGetCampaigns]_block_invoke
+__22-[Enreach callGetUser]_block_invoke
+__48-[Enreach handleGetUserWithData:Response:Error:]_block_invoke
+__53-[Enreach handleGetCampaignsWithData:Response:Error:]_block_invoke
+__22-[Enreach getUserEvid]_block_invoke
+__25+[Enreach sharedInstance]_block_invoke
+_dispatch_once
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/usr/include/dispatch/once.h
+__40+[Enreach sharedInstanceWithParameters:]_block_invoke
+-[AdInfo initWithPlacementId:]
+-[AdInfo initWithPlacementId:campaignId:creativeId:]
+-[AdInfo getPId]
+-[AdInfo getAdId]
+-[AdInfo getBnId]
+-[AdInfo pId]
+-[AdInfo setPId:]
+-[AdInfo adId]
+-[AdInfo setAdId:]
+-[AdInfo bnId]
+-[AdInfo setBnId:]
+-[AdInfo .cxx_destruct]
+_OBJC_IVAR_$_AdInfo._pId
+_OBJC_IVAR_$_AdInfo._adId
+_OBJC_IVAR_$_AdInfo._bnId
+/Users/bkashentsev/Documents/Conmio/EnreachPOC/EnreachPOC/EnreachSDK/AdInfo.m
+/Users/bkashentsev/Documents/Conmio/EnreachPOC/EnreachPOC/EnreachSDK/AdInfo.h
+/Users/bkashentsev/Documents/Conmio/EnreachPOC/EnreachPOC/EnreachSDK/Constants.m
+-[EnreachPaths initWithDomain:Paths:AdServerId:AdmpApiVersion:]
+-[EnreachPaths initWithDomain:Paths:]
+-[EnreachPaths initWithDomain:]
+-[EnreachPaths getUser]
+-[EnreachPaths getUser:]
+-[EnreachPaths getCampaigns:]
+-[EnreachPaths registerURLString:]
+-[EnreachPaths validate:]
+-[EnreachPaths pageStat:]
+-[EnreachPaths placementStat:]
+-[EnreachPaths adStat:]
+-[EnreachPaths arStat:]
+-[EnreachPaths getAdServerId]
+-[EnreachPaths getFullUrlWithDomain:Path:Parameters:RequiresAdServerId:]
++[EnreachPaths encode:]
+-[EnreachPaths domain]
+-[EnreachPaths setDomain:]
+-[EnreachPaths getUserPath]
+-[EnreachPaths setGetUserPath:]
+-[EnreachPaths campaignsPath]
+-[EnreachPaths setCampaignsPath:]
+-[EnreachPaths validatePath]
+-[EnreachPaths setValidatePath:]
+-[EnreachPaths registerPath]
+-[EnreachPaths setRegisterPath:]
+-[EnreachPaths arStatPath]
+-[EnreachPaths setArStatPath:]
+-[EnreachPaths adStatPath]
+-[EnreachPaths setAdStatPath:]
+-[EnreachPaths pageStatPath]
+-[EnreachPaths setPageStatPath:]
+-[EnreachPaths placementPath]
+-[EnreachPaths setPlacementPath:]
+-[EnreachPaths adServerId]
+-[EnreachPaths setAdServerId:]
+-[EnreachPaths admpApiVersion]
+-[EnreachPaths setAdmpApiVersion:]
+-[EnreachPaths .cxx_destruct]
+_OBJC_IVAR_$_EnreachPaths._domain
+_OBJC_IVAR_$_EnreachPaths._getUserPath
+_OBJC_IVAR_$_EnreachPaths._campaignsPath
+_OBJC_IVAR_$_EnreachPaths._validatePath
+_OBJC_IVAR_$_EnreachPaths._registerPath
+_OBJC_IVAR_$_EnreachPaths._arStatPath
+_OBJC_IVAR_$_EnreachPaths._adStatPath
+_OBJC_IVAR_$_EnreachPaths._pageStatPath
+_OBJC_IVAR_$_EnreachPaths._placementPath
+_OBJC_IVAR_$_EnreachPaths._adServerId
+_OBJC_IVAR_$_EnreachPaths._admpApiVersion
+/Users/bkashentsev/Documents/Conmio/EnreachPOC/EnreachPOC/EnreachSDK/EnreachPaths.m
+/Users/bkashentsev/Documents/Conmio/EnreachPOC/EnreachPOC/EnreachSDK/EnreachPaths.h
+/Users/bkashentsev/Library/Developer/Xcode/DerivedData/EnreachPOC-gynkxnzrxhaosydlszgyrnelgdtl/Build/Intermediates/EnreachPOC.build/Release-iphoneos/TestEnreachSDK.build/DerivedSources/TestEnreachSDK_vers.c

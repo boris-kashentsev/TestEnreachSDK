@@ -29,7 +29,6 @@
   self.pageStatPath = [paths objectForKey:@"pageStatPath"] != nil ? [paths objectForKey:@"pageStatPath"] : pageStatPathConst;
   self.placementPath = [paths objectForKey:@"placementPath"] != nil ? [paths objectForKey:@"placementPath"] : placementPathConst;
   
-  //self.adServerId = [[NSString alloc] init];
   self.adServerId = adServerId != nil ? adServerId : @"";
   
   self.admpApiVersion = admpApiVersion != nil ? admpApiVersion : admpApiVersionConst;
@@ -90,6 +89,11 @@
 }
 
 -(NSString*) getFullUrlWithDomain:(NSString*)domain Path:(NSString*)path Parameters:(NSDictionary*)parameters RequiresAdServerId:(BOOL)requiresAsServerId {
+  if (domain == nil || [domain isEqualToString:@""]) {
+    NSLog(@"ERROR: Domain is empty. Please, instanciate EnreachPaths class with domain.");
+    return @"";
+  }
+  
   NSString* url = [[NSString alloc] initWithString:domain];
   url = [url stringByAppendingFormat:@"%@?",path];
   for(NSString* key in parameters) {

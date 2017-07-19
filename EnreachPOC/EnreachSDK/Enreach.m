@@ -15,40 +15,51 @@
 
 @synthesize evid;
 
-+(Enreach *)sharedEnreachInstance {
++(Enreach *)sharedInstanceWithParameters:(NSDictionary*) parameters {
   static Enreach *sharedInstance = nil;
   static dispatch_once_t onceToken;
   dispatch_once (&onceToken, ^{
-    sharedInstance = [[self alloc] init];
+    sharedInstance = [[self alloc] initWithParameters: parameters];
   });
   return sharedInstance;
 }
 
--(id) init {
+-(id) initWithParameters:(NSDictionary*) parameters {
   if (self = [super init]) {
     evid = EMPTYEVID;
-    self.paths = [[EnreachPaths alloc] initWithDomain:@"http://admp-tc.mtv.fi/"];
-    //self.paths = [[EnreachPaths alloc] initWithDomain:@"http://sanomaadmp-stage.adtlgc.com/"];
-    //NSString* tmpValue = [AdStatState getType:DWELL];
-    
+    self.paths = [[EnreachPaths alloc] initWithDomain:[parameters objectForKey:@"domain"] Paths:parameters AdServerId:[parameters objectForKey:@"adServerId"] AdmpApiVersion:[parameters objectForKey:@"admpApiVersion"]];
     [self getUserEvid];
     
-    NSLog(@"Boop");
+    NSLog(@"Boop with parameters");
   }
   return self;
 }
 
-
++(Enreach *)sharedInstance {
+  static Enreach *sharedInstance = nil;
+  static dispatch_once_t onceToken;
+  dispatch_once (&onceToken, ^{
+    //sharedInstance = [[self alloc] init];
+    sharedInstance = [Enreach sharedInstanceWithParameters:[NSDictionary new]];
+  });
+  return sharedInstance;
+}
 
 -(void)getUserEvid {
-  NSURL *getUserURL = [NSURL URLWithString:[self.paths getUser]];
-  NSURLRequest *request = [NSURLRequest requestWithURL:getUserURL];
   
-  NSURLSessionDataTask* dataTask = [[NSURLSession sharedSession] dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
-    [self handleGetUserWithData:data Response:response Error:error];
-  }];
+  if([[NSUserDefaults standardUserDefaults] objectForKey:@"evId"] != nil) {
+    self.evid = [[NSUserDefaults standardUserDefaults] objectForKey:@"evId"];
+  }
+  else {
+    NSURL *getUserURL = [NSURL URLWithString:[self.paths getUser]];
+    NSURLRequest *request = [NSURLRequest requestWithURL:getUserURL];
   
-  [dataTask resume];
+    NSURLSessionDataTask* dataTask = [[NSURLSession sharedSession] dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+      [self handleGetUserWithData:data Response:response Error:error];
+    }];
+  
+    [dataTask resume];
+  }
 }
 
 -(void)handleValidateWithData:(NSData*)data Response:(NSURLResponse*)response Error:(NSError*)error {
@@ -63,6 +74,8 @@
         if ([responseDictionary objectForKey:@"evId"] != nil) {
           if([self.evid isEqualToString:EMPTYEVID] && ![[responseDictionary objectForKey:@"evId"] isEqualToString:EMPTYEVID]) {
             self.evid = [responseDictionary objectForKey:@"evId"];
+            [[NSUserDefaults standardUserDefaults] setObject:self.evid forKey:@"evId"];
+            [[NSUserDefaults standardUserDefaults] synchronize];
           }
         }
       }
@@ -98,6 +111,8 @@
         NSLog(@"%@", responseDictionary);
         if ([responseDictionary objectForKey:@"evId"] != nil) {
           self.evid = [responseDictionary objectForKey:@"evId"];
+          [[NSUserDefaults standardUserDefaults] setObject:self.evid forKey:@"evId"];
+          [[NSUserDefaults standardUserDefaults] synchronize];
         }
         else {
           NSLog(@"Structure of the response has changed");
@@ -132,6 +147,7 @@
 
 -(void) clearEvid {
   self.evid = EMPTYEVID;
+  [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"evId"];
 }
 
 -(void) callGetUser {

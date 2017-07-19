@@ -7,8 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "Enreach.h"
-#import "CampaignResponse.h"
+#import "EnreachSDK/Enreach.h"
+#import "EnreachSDK/CampaignResponse.h"
 
 @interface ViewController ()
 
@@ -28,33 +28,29 @@
 }
 
 - (IBAction)getUserPressed:(id)sender {
-    NSLog(@"Number of Cookies: %lu",[[[NSHTTPCookieStorage sharedHTTPCookieStorage] cookies]count]);
-  //[[Enreach sharedEnreachInstance] callGetUser];
-  [[Enreach sharedEnreachInstance] getUserEvid];
+  NSLog(@"Number of Cookies: %lu",[[[NSHTTPCookieStorage sharedHTTPCookieStorage] cookies]count]);
+  [[Enreach sharedInstance] getUserEvid];
 }
 - (IBAction)getCampaignsPressed:(id)sender {
   NSLog(@"Number of Cookies: %lu",[[[NSHTTPCookieStorage sharedHTTPCookieStorage] cookies]count]);
-  //[[Enreach sharedEnreachInstance] callGetCampaigns];
-  //CampaignResponse* campResp = [[Enreach sharedEnreachInstance] syncGetCampaigns];
   
   void (^blockToRuleThemAll)(CampaignResponse*) = ^(CampaignResponse* response){
     NSLog(@"%@", [response evId]);
     NSLog(@"Here you go Boy! You use them blocks");
   };
   
-  [[Enreach sharedEnreachInstance] getCampaignsWithBlock:blockToRuleThemAll];
+  [[Enreach sharedInstance] getCampaignsWithBlock:blockToRuleThemAll];
   
   NSLog(@"Check campResponse");
   
 }
 
 - (IBAction)validatePressed:(id)sender {
-    NSLog(@"Number of Cookies: %lu",[[[NSHTTPCookieStorage sharedHTTPCookieStorage] cookies]count]);
-  [[Enreach sharedEnreachInstance] callValidate];
+  NSLog(@"Number of Cookies: %lu",[[[NSHTTPCookieStorage sharedHTTPCookieStorage] cookies]count]);
 }
 
 - (IBAction)clearCookies:(id)sender {
-  [[Enreach sharedEnreachInstance] clearEvid];
+  [[Enreach sharedInstance] clearEvid];
   for (NSHTTPCookie *cookie in [[NSHTTPCookieStorage sharedHTTPCookieStorage] cookies]) {
     [[NSHTTPCookieStorage sharedHTTPCookieStorage] deleteCookie:cookie];
   }

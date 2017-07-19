@@ -8,24 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		2C21700B1F18C6A8005B7705 /* TestEnreachSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C2170091F18C6A8005B7705 /* TestEnreachSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C21700E1F18C6A8005B7705 /* TestEnreachSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2170071F18C6A8005B7705 /* TestEnreachSDK.framework */; };
 		2C21700F1F18C6A8005B7705 /* TestEnreachSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2170071F18C6A8005B7705 /* TestEnreachSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		2C2170801F1D0DD3005B7705 /* AdInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C2170741F1D0DD3005B7705 /* AdInfo.h */; };
+		2C2170801F1D0DD3005B7705 /* AdInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C2170741F1D0DD3005B7705 /* AdInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C2170811F1D0DD3005B7705 /* AdInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2170751F1D0DD3005B7705 /* AdInfo.m */; };
 		2C2170821F1D0DD3005B7705 /* AdInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2170751F1D0DD3005B7705 /* AdInfo.m */; };
-		2C2170831F1D0DD3005B7705 /* AdStatState.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C2170761F1D0DD3005B7705 /* AdStatState.h */; };
+		2C2170831F1D0DD3005B7705 /* AdStatState.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C2170761F1D0DD3005B7705 /* AdStatState.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C2170841F1D0DD3005B7705 /* AdStatState.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2170771F1D0DD3005B7705 /* AdStatState.m */; };
 		2C2170851F1D0DD3005B7705 /* AdStatState.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2170771F1D0DD3005B7705 /* AdStatState.m */; };
-		2C2170861F1D0DD3005B7705 /* CampaignResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C2170781F1D0DD3005B7705 /* CampaignResponse.h */; };
+		2C2170861F1D0DD3005B7705 /* CampaignResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C2170781F1D0DD3005B7705 /* CampaignResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C2170871F1D0DD3005B7705 /* CampaignResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2170791F1D0DD3005B7705 /* CampaignResponse.m */; };
 		2C2170881F1D0DD3005B7705 /* CampaignResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2170791F1D0DD3005B7705 /* CampaignResponse.m */; };
-		2C2170891F1D0DD3005B7705 /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C21707A1F1D0DD3005B7705 /* Constants.h */; };
+		2C2170891F1D0DD3005B7705 /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C21707A1F1D0DD3005B7705 /* Constants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C21708A1F1D0DD3005B7705 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C21707B1F1D0DD3005B7705 /* Constants.m */; };
 		2C21708B1F1D0DD3005B7705 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C21707B1F1D0DD3005B7705 /* Constants.m */; };
-		2C21708C1F1D0DD3005B7705 /* Enreach.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C21707C1F1D0DD3005B7705 /* Enreach.h */; };
+		2C21708C1F1D0DD3005B7705 /* Enreach.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C21707C1F1D0DD3005B7705 /* Enreach.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C21708D1F1D0DD3005B7705 /* Enreach.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C21707D1F1D0DD3005B7705 /* Enreach.m */; };
 		2C21708E1F1D0DD3005B7705 /* Enreach.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C21707D1F1D0DD3005B7705 /* Enreach.m */; };
-		2C21708F1F1D0DD3005B7705 /* EnreachPaths.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C21707E1F1D0DD3005B7705 /* EnreachPaths.h */; };
+		2C21708F1F1D0DD3005B7705 /* EnreachPaths.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C21707E1F1D0DD3005B7705 /* EnreachPaths.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C2170901F1D0DD3005B7705 /* EnreachPaths.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C21707F1F1D0DD3005B7705 /* EnreachPaths.m */; };
 		2C2170911F1D0DD3005B7705 /* EnreachPaths.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C21707F1F1D0DD3005B7705 /* EnreachPaths.m */; };
 		2C2958AE1F0264940055DAE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2958AD1F0264940055DAE1 /* main.m */; };
@@ -103,7 +102,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C21700E1F18C6A8005B7705 /* TestEnreachSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,13 +188,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C21700B1F18C6A8005B7705 /* TestEnreachSDK.h in Headers */,
+				2C21708C1F1D0DD3005B7705 /* Enreach.h in Headers */,
+				2C2170861F1D0DD3005B7705 /* CampaignResponse.h in Headers */,
 				2C2170891F1D0DD3005B7705 /* Constants.h in Headers */,
 				2C21708F1F1D0DD3005B7705 /* EnreachPaths.h in Headers */,
-				2C21700B1F18C6A8005B7705 /* TestEnreachSDK.h in Headers */,
 				2C2170831F1D0DD3005B7705 /* AdStatState.h in Headers */,
-				2C21708C1F1D0DD3005B7705 /* Enreach.h in Headers */,
 				2C2170801F1D0DD3005B7705 /* AdInfo.h in Headers */,
-				2C2170861F1D0DD3005B7705 /* CampaignResponse.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +362,7 @@
 		2C2170101F18C6A8005B7705 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -390,6 +389,7 @@
 		2C2170111F18C6A8005B7705 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -508,6 +508,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				DEVELOPMENT_TEAM = P735BUA9ED;
 				INFOPLIST_FILE = EnreachPOC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -525,6 +526,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				DEVELOPMENT_TEAM = P735BUA9ED;
 				INFOPLIST_FILE = EnreachPOC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -548,6 +550,7 @@
 				2C2170111F18C6A8005B7705 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C2958A41F0264940055DAE1 /* Build configuration list for PBXProject "EnreachPOC" */ = {
 			isa = XCConfigurationList;
